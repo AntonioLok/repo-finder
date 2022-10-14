@@ -1,0 +1,10 @@
+@mixin breadcrumb-style {
+    .breadcrumb {
+        margin-bottom: 40px;
+        margin-top: 40px;
+
+        div {
+            padding: 0 0.75em;
+        }
+    }
+}

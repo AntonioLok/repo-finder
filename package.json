@@ -1,0 +1,65 @@
+{
+  "name": "repo-finder",
+  "version": "1.0.0",
+  "description": "--",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint --fix src/**/*.js",
+    "sass-lint": "sass-lint src/stylesheets/**/*.scss -v -q",
+    "sass-lint:fix": "sass-lint-auto-fix src/stylesheets/**/*.scss",
+    "test": "echo 'not yet implemented'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntonioLok/repo-finder"
+  },
+  "keywords": [],
+  "author": "Antonio Lok Chan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bulma": "^0.9.4",
+    "copy-webpack-plugin": "^4.5.4",
+    "file-loader": "^6.2.0",
+    "history": "4.7.2",
+    "moment": "^2.29.4",
+    "prop-types": "15.6.2",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "url-loader": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-eslint": "10.0.1",
+    "babel-loader": "7.1.4",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-plugin-import": "^1.13.3",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "1.0.1",
+    "eslint": "5.6.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-react": "7.11.1",
+    "html-webpack-plugin": "3.0.6",
+    "less-loader": "^5.0.0",
+    "node-sass": "4.12.0",
+    "sass-lint": "1.12.1",
+    "sass-lint-auto-fix": "^0.21.2",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.23.1",
+    "webpack": "4.19.1",
+    "webpack-cli": "3.3.4",
+    "webpack-dev-server": "3.3.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}

@@ -1,0 +1,15 @@
+rules:
+  hex-length:
+    - 2
+    - style: long
+  hex-notation:
+    - 2
+    - style: uppercase
+  indentation: 0
+  nesting-depth: 0
+  no-ids: 2
+  no-important: 0
+  no-vendor-prefixes: 0
+  property-sort-order:
+    - 2
+  space-before-brace: 2

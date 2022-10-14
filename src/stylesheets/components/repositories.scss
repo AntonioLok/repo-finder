@@ -1,0 +1,35 @@
+.repositories-container {
+    @include breadcrumb-style;
+
+    .repos-for {
+        border-bottom: 1px solid #D3D3D3;
+        padding-bottom: 6px;
+    }
+
+    .repository-info {
+        cursor: pointer;
+        margin-top: 12px;
+
+        &:hover {
+            background-color: ghostwhite !important;
+        }
+
+        .repo-name {
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-shadow: 1px 0 #000000;
+        }
+
+        .last-updated {
+            color: #808080;
+            font-size: 1rem;
+            padding-bottom: 12px;
+        }
+
+        .description {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 14px;
+        }
+    }
+}
